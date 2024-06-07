@@ -1,0 +1,80 @@
+@font-face{
+    font-family: supercharge;
+    src:url(SuperchargeStraight-nR87V.otf)
+}
+@font-face{
+    font-family: noto;
+    src:url(NotoSerif-VariableFont_wdth\,wght.ttf)
+}
+* {
+    font-family: noto;
+}
+body{
+    background: 
+    url(image/bgstreet.jpg);
+  backdrop-filter: blur(30px);
+  background-size: cover;
+}
+.nav-flex-row {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-item{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+    
+}
+
+.nav-flex-row li a {
+    font-family: supercharge;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.carousel-inner{
+    font-family: noto;
+}
+
+.footer{
+    display: flex;
+   
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.paragraf{
+    font-family: coffee;
+    margin-left: 60px;
+    justify-items: center;
+    margin-top: 40px;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    }
+
+.footer1{
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+  
+}
+

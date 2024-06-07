@@ -1,0 +1,157 @@
+@font-face{
+    font-family: supercharge;
+    src:url(SuperchargeStraight-nR87V.otf)
+}
+@font-face{
+    font-family: noto;
+    src:url(NotoSerif-VariableFont_wdth\,wght.ttf)
+}
+* {
+    font-family: noto;
+}
+body{
+    background:
+    url(image/bgstreet.jpg);
+  backdrop-filter: blur(30px);
+  background-size: cover;
+}
+.nav-flex-row {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-item{
+    
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-flex-row li {
+    
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+    
+}
+
+.nav-flex-row li a {
+    font-family: supercharge;
+    color: rgb(255, 253, 253);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10 30px;
+    background-color: maroon;
+    padding: 10px;
+    border-radius: 20px;
+}
+.wrapper p{
+    line-height: 10px;
+}
+.wrapper svg{
+    justify-items: center;
+    margin-left: 40px;
+}
+.wrapper-1 {
+    display: flex;
+    justify-content: center;
+    margin: 10 30px;
+
+
+}
+
+.wrapper-1 .card {
+    margin: 10px 10px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgb(245, 246, 245);
+    width: 300px;
+    height: 330px;
+}
+
+.wrapper .card {
+    margin: 30px 10px 10px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 330px;
+}
+
+.card img {
+    padding: 10px;
+    margin: auto;
+    width: 250px;
+    border-radius: 30px;
+
+}
+.judul {
+    color: rgb(253, 253, 253);
+    text-shadow: maroon;
+    text-align: center;
+}
+.judul h1{
+    font-family: supercharge;
+}
+.card-body {
+    margin: 0px;
+}
+.card:hover {
+    scale: 1.10;
+}
+.card-img-top1 {
+    margin: 30px;
+}
+.Product{
+    background-color: aquamarine;
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+    gap: 20px;
+    line-height: 7px;
+  }
+
+
+.promo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    background-color: #fdd5fd;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.paragraf{
+    font-family: coffee;
+    margin-left: 60px;
+    justify-items: center;
+    margin-top: 40px;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    }
+
+.footer1{
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+  
+}
